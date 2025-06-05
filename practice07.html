@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkboxes & Radio Buttons</title>
+  </head>
+  <body>
+    <form action="/pizza/toppings" method="post">
+      <input type="checkbox" id="toppings-1" name="pineapple" />
+      <label for="pineapple">Pineapple</label>
+      <input type="checkbox" id="toppings-2" name="corn" />
+      <label for="corn">Corn</label>
+      <input type="checkbox" id="toppings-3" name="olives" />
+      <label for="olives">Olives</label>
+
+      <br />
+      <br />
+
+      <input type="radio" name="size" id="size-small" value="s" />
+      <label for="size-small">Small</label>
+      <input type="radio" name="size" id="size-medium" value="m" />
+      <label for="size-medium">Medium</label>
+      <input type="radio" name="size" id="size-large" value="l" />
+      <label for="size-large">Large</label>
+    </form>
+  </body>
+</html>
